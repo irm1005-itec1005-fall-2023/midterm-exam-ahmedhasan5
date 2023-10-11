@@ -6,14 +6,13 @@ body {
     justify-content: center;
     align-items: center;
 
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 
 .coffee-container {
-    width: 300px;
-    height: 500px;
+    
     background-color: #f8f7f5;
     margin: 10px;
     border-radius: 30px;
@@ -32,7 +31,7 @@ body {
 
  
   .coffee-details {
-    color:#732f08
+    color:#000000
   }
 
 
@@ -56,8 +55,8 @@ body {
     background-color: #000a7c;
     color: #fff;
     text-align: center;
-    padding: 5px 10px;
-    margin-right: 10px;
+    padding: 10px;
+    margin-right: 5px;
     margin-left: 10px;
     border: none;
     cursor: pointer;
