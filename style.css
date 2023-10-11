@@ -1,37 +1,73 @@
-/*
- * CSS File for the solution
- * Midterm Exam
- * You got this!
- */
-
-/*
- * COLOUR PALETTE
- *
- * YOU DO NOT NEED TO USE THESE COLOURS, BUT YOU CAN IF YOU WANT TO
- *   #ede0d4
- *   #e6ccb2
- *   #ddb892
- *   #b08968
- *   #7f5539
- *   #9c6644
- *
- * https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
- */
-
-/*
- * The width of my Product Card in the screenshot was 400px
- * You can use that width or set your own width
- */
-
-/*
- * HINT: For making image fill the container use object-fit:cover property:
- *  https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
- */
-
-html {
-  font-size: 1.0rem;
-}
-
-body {
+body { 
   font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
+
+
+.coffee-container {
+    width: 300px;
+    height: 500px;
+    background-color: #f8f7f5;
+    margin: 10px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items:center;
+
+  }
+
+
+  .coffee-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+ 
+  .coffee-details {
+    color:#732f08
+  }
+
+
+  .coffee-title {
+    font-size: 15px;
+    color: #000000;
+    padding: 0.5rem;
+  }
+
+    .coffee-description {
+        font-size: 16px;
+        color: #732f08;
+        margin: 10px 0;
+    }
+  .buy-now-button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .buy-now-button {
+    background-color: #000a7c;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .coffee-price {
+    font-size: 30px;
+    color: #0088ff;
+    margin: 10px 0;
+    font-weight: bold;
+  }
